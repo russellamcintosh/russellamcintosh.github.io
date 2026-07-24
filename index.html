@@ -1,7 +1,120 @@
 <!DOCTYPE html>
-<html>
-<head><title>My Site</title></head>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Russell McIntosh</title>
+<style>
+  body {
+    font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 0 20px;
+    color: #222;
+    line-height: 1.6;
+    font-size: 17px;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  .header img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 8px 0;
+  }
+  .subtitle {
+    color: #555;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+  }
+  .links a {
+    margin-right: 12px;
+    color: #06c;
+    text-decoration: none;
+  }
+  .links a:hover {
+    text-decoration: underline;
+  }
+  h2 {
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+    margin-top: 40px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  li {
+    margin-bottom: 12px;
+  }
+  .pub-title {
+    font-weight: bold;
+  }
+  .pub-venue {
+    color: #555;
+    font-style: italic;
+  }
+  footer {
+    margin-top: 60px;
+    color: #999;
+    font-size: 13px;
+  }
+</style>
+</head>
 <body>
-<h1>Hello, world!</h1>
+
+  <div class="header">
+    <img src="photo.jpg" alt="Photo of Russell McIntosh">
+    <div>
+      <h1>Russell McIntosh</h1>
+      <p class="subtitle">PhD Candidate, Department of Philosophy<br>UC Berkeley</p>
+      <p class="links">
+        <a href="mailto:russ.mcintosh@berkeley.edu>Email</a>
+        <a href="CV.pdf">CV</a>
+        <a href="https://philpeople.org/profiles/russell-mcintosh-1">PhilPeople</a>
+      </p>
+    </div>
+  </div>
+
+  <section>
+    <h2>About</h2>
+    <p>
+      I am a philosopher writing a dissertation in ethics at UC Berkeley. My advisors are
+      <a href="https://philosophy.berkeley.edu/people/detail/584">Johann Frick</a>
+      and <a href="https://www.rjaywallace.net/">Jay Wallace</a>. Before this, I studied philosophy
+      and math at UNC Chapel Hill.
+    </p>
+  </section>
+
+  <section>
+    <h2>Papers</h2>
+    <ul>
+      <li>
+        <span class="pub-title">Title of Paper One</span><br>
+        Author One, Author Two, <strong>Russell McIntosh</strong><br>
+        <span class="pub-venue">Conference/Journal Name, 2026</span>
+        &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="#">Code</a>
+      </li>
+      <li>
+        <span class="pub-title">Title of Paper Two</span><br>
+        <strong>Russell McIntosh</strong>, Author Two<br>
+        <span class="pub-venue">Conference/Journal Name, 2025</span>
+        &nbsp;·&nbsp; <a href="#">PDF</a>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    Updated July 2026
+  </footer>
+
 </body>
 </html>
