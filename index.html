@@ -14,6 +14,11 @@
     line-height: 1.6;
     font-size: 17px;
   }
+  figcaption {
+  font-size: 9px;   /* was likely 13px — lower this further if you want it smaller still */
+  color: #999;
+  margin-top: 4px;
+}
   .header {
     display: flex;
     align-items: center;
@@ -72,19 +77,20 @@
 <body>
 
   <div class="header">
-    <figure style="margin:0;">
+  <figure style="margin:0;">
     <img src="romepic.jpg" alt="Photo of Russell McIntosh">
     <figcaption>Photo credit: Ben Hale</figcaption>
   </figure>
-      <h1>Russell McIntosh</h1>
-      <p class="subtitle">PhD Candidate, UC Berkeley</p>
-      <p class="links">
-        <a href="mailto:russ.mcintosh@berkeley.edu">Email</a>
-        <a href="CV july 2026.pdf">CV</a>
-        <a href="https://philpeople.org/profiles/russell-mcintosh-1">PhilPeople</a>
-      </p>
-    </div>
+  <div>
+    <h1>Russell McIntosh</h1>
+    <p class="subtitle">PhD Candidate, UC Berkeley</p>
+    <p class="links">
+      <a href="mailto:russ.mcintosh@berkeley.edu">Email</a>
+      <a href="CV july 2026.pdf">CV</a>
+      <a href="https://philpeople.org/profiles/russell-mcintosh-1">PhilPeople</a>
+    </p>
   </div>
+</div>
 
   <section>
     <h2>About</h2>
